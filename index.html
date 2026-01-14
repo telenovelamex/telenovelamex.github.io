@@ -13,7 +13,7 @@
 <meta property="og:description" content="Mira tus telenovelas mexicanas favoritas en HD. Capítulos diarios, el elenco completo y las mejores historias.">
 <meta property="og:site_name" content="TelenovelaMex">
 
-<link rel="canonical" href="https://tusitio.com/dinastia-casillas">
+<link rel="canonical" href="https://telenovelamex.github.io">
 
 <style>
 body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height:1.6; margin:0; padding:0; background:#f4f4f9; color:#333; }
@@ -44,49 +44,72 @@ footer { text-align:center; padding:20px; font-size:0.9rem; color:#666; }
   <div class="episode-card">
     <img src="https://i.imgur.com/H2M72w1.jpg" alt="Dinastía Casillas Capítulo 64">
     <h3>Capítulo 64 Completo</h3>
-    <a href="/dinastia-casillas-capitulo-64">Ver Capítulo 64</a>
+    <a href="/64/dinastia-casillas-capitulo-64-completo-telenovela-mexicana/">Ver Capítulo 64</a>
   </div>
 
   <!-- Capítulo 65 -->
   <div class="episode-card">
-    <img src="https://i.imgur.com/H2M72w1.jpg" alt="Dinastía Casillas Capítulo 65">
+    <img src="https://i.imgur.com/YOUR_IMAGE65.jpg" alt="Dinastía Casillas Capítulo 65">
     <h3>Capítulo 65 Completo</h3>
-    <a href="/dinastia-casillas-capitulo-65">Ver Capítulo 65</a>
+    <a href="/65/dinastia-casillas-capitulo-65-completo-telenovela-mexicana/">Ver Capítulo 65</a>
   </div>
 
   <!-- Capítulo 66 -->
   <div class="episode-card">
-    <img src="https://i.imgur.com/H2M72w1.jpg" alt="Dinastía Casillas Capítulo 66">
+    <img src="https://i.imgur.com/YOUR_IMAGE66.jpg" alt="Dinastía Casillas Capítulo 66">
     <h3>Capítulo 66 Completo</h3>
-    <a href="/dinastia-casillas-capitulo-66">Ver Capítulo 66</a>
+    <a href="/66/dinastia-casillas-capitulo-66-completo-telenovela-mexicana/">Ver Capítulo 66</a>
   </div>
 </div>
 </div>
 
-<!-- فيديو يوتيوب مخفي لمحركات البحث (Video Rich Results) -->
-<div style="position:absolute; left:-9999px; top:0; width:1px; height:1px; overflow:hidden;">
-<iframe src="https://www.youtube.com/embed/3enO3zSEvjg?si=UAl1am8TA7hw_5CQ" title="Dinastía Casillas Videos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<!-- Video Schema -->
+<!-- Video Schemas لكل حلقة -->
 <script type="application/ld+json" id="video-schema"></script>
 <script>
 (function(){
   const today = new Date().toISOString().split('T')[0];
-  const videoData={
-    "@context":"https://schema.org",
-    "@type":"VideoObject",
-    "name":"Dinastía Casillas Capítulos Destacados 64-66",
-    "description":"Ver Dinastía Casillas Capítulos 64, 65 y 66 en HD sin anuncios. Telenovela mexicana.",
-    "thumbnailUrl":["https://i.imgur.com/H2M72w1.jpg"],
-    "uploadDate":today,
-    "duration":"PT45M",
-    "contentUrl":"https://your-streaming-source.com/dinastia-casillas-64-66.mp4",
-    "embedUrl":"https://your-streaming-source.com/embed/dinastia-casillas-64-66",
-    "interactionStatistic":{"@type":"InteractionCounter","interactionType":{"@type":"WatchAction"},"userInteractionCount":15000},
-    "regionsAllowed":"US,MX,ES"
-  };
-  document.getElementById('video-schema').textContent=JSON.stringify(videoData);
+  const videoSchemas = [
+    {
+      "@context":"https://schema.org",
+      "@type":"VideoObject",
+      "name":"Dinastía Casillas Capítulo 64 Completo",
+      "description":"Ver Dinastía Casillas Capítulo 64 completo en HD sin anuncios.",
+      "thumbnailUrl":["https://i.imgur.com/H2M72w1.jpg"],
+      "uploadDate":today,
+      "duration":"PT45M",
+      "contentUrl":"https://your-streaming-source.com/dinastia-casillas-64.mp4",
+      "embedUrl":"https://your-streaming-source.com/embed/dinastia-casillas-64",
+      "interactionStatistic":{"@type":"InteractionCounter","interactionType":{"@type":"WatchAction"},"userInteractionCount":12450},
+      "regionsAllowed":"US,MX,ES"
+    },
+    {
+      "@context":"https://schema.org",
+      "@type":"VideoObject",
+      "name":"Dinastía Casillas Capítulo 65 Completo",
+      "description":"Ver Dinastía Casillas Capítulo 65 completo en HD sin anuncios.",
+      "thumbnailUrl":["https://i.imgur.com/YOUR_IMAGE65.jpg"],
+      "uploadDate":today,
+      "duration":"PT45M",
+      "contentUrl":"https://your-streaming-source.com/dinastia-casillas-65.mp4",
+      "embedUrl":"https://your-streaming-source.com/embed/dinastia-casillas-65",
+      "interactionStatistic":{"@type":"InteractionCounter","interactionType":{"@type":"WatchAction"},"userInteractionCount":11230},
+      "regionsAllowed":"US,MX,ES"
+    },
+    {
+      "@context":"https://schema.org",
+      "@type":"VideoObject",
+      "name":"Dinastía Casillas Capítulo 66 Completo",
+      "description":"Ver Dinastía Casillas Capítulo 66 completo en HD sin anuncios.",
+      "thumbnailUrl":["https://i.imgur.com/YOUR_IMAGE66.jpg"],
+      "uploadDate":today,
+      "duration":"PT45M",
+      "contentUrl":"https://your-streaming-source.com/dinastia-casillas-66.mp4",
+      "embedUrl":"https://your-streaming-source.com/embed/dinastia-casillas-66",
+      "interactionStatistic":{"@type":"InteractionCounter","interactionType":{"@type":"WatchAction"},"userInteractionCount":10500},
+      "regionsAllowed":"US,MX,ES"
+    }
+  ];
+  document.getElementById('video-schema').textContent = JSON.stringify(videoSchemas);
 })();
 </script>
 
