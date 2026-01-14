@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /assets/css/
+Disallow: /assets/js/
+
+Allow: /assets/images/
+
+Sitemap: https://telenovelamex.github.io/sitemap.xml
