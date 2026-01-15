@@ -5,9 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dinastía Casillas Capítulo 65 Completo – Telenovela Mexicana</title>
 
-<meta name="description" content="Disfruta Dinastía Casillas Capítulo 65 completo en HD. Mira todos los acontecimientos de la historia de la familia Casillas y el desarrollo de sus personajes.">
+<meta name="description" content="Mira Dinastía Casillas capítulo 65 completo en español. Episodio lleno de drama, tensión y momentos clave en la historia de la familia Casillas.">
 
-<!-- Open Graph -->
 <meta property="og:type" content="video.other">
 <meta property="og:title" content="Dinastía Casillas Capítulo 65 Completo">
 <meta property="og:description" content="Disfruta el capítulo 65 de Dinastía Casillas con todos los momentos clave de la telenovela.">
@@ -17,12 +16,10 @@
 <meta property="og:video:width" content="1280">
 <meta property="og:video:height" content="720">
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="player">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dinastía Casillas Capítulo 65 Completo">
 <meta name="twitter:image" content="https://telenovelamex.github.io/assets/images/dinastia-casillas-65.webp">
 
-<!-- VideoObject JSON-LD -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -48,13 +45,36 @@
 <style>
 body { font-family: 'Segoe UI', Arial, sans-serif; background: #0e0e0e; color: #eee; margin: 0; padding: 20px; }
 .container { max-width: 900px; margin: auto; }
-.main-player { background: #000; border-radius: 14px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,.6); margin: 25px 0; }
+.main-player { background: #000; border-radius: 14px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,.6); margin: 25px 0; position: relative; }
 video { width: 100%; aspect-ratio: 16 / 9; display: block; }
 h1 { color: #fff; border-bottom: 1px solid #333; padding-bottom: 10px; }
-article { line-height: 1.8; font-size: 1.05rem; color: #ccc; margin-top:20px; }
+article { line-height: 1.8; font-size: 1.05rem; color: #ccc; }
 .nav-links { margin-top: 30px; text-align: center; padding: 20px; background: #1a1a1a; border-radius: 8px; }
 a { color: #1a73e8; text-decoration: none; font-weight: bold; margin: 0 15px; }
 a:hover { text-decoration: underline; }
+
+/* زر التشغيل الافتراضي يظهر فوق الفيديو */
+#playBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(211, 47, 47, 0.9);
+    border: none;
+    color: #fff;
+    font-size: 2.5rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+#playBtn:hover { background: #ff0000; transform: translate(-50%, -50%) scale(1.1); }
+.video-playing #playBtn { display: none; }
 </style>
 </head>
 <body>
@@ -63,16 +83,27 @@ a:hover { text-decoration: underline; }
 <h1>Dinastía Casillas Capítulo 65 Completo</h1>
 
 <div class="main-player">
-  <video controls preload="metadata" poster="https://telenovelamex.github.io/assets/images/dinastia-casillas-65.webp">
+  <video id="videoPlayer" controls preload="metadata" poster="https://telenovelamex.github.io/assets/images/dinastia-casillas-65.webp">
     <source src="https://dl.dropboxusercontent.com/scl/fi/nq7er3efa3xo8227d2mqm/DC.mp4?rlkey=i9lhni4ezklm8ieloty46o2dq" type="video/mp4">
     Tu navegador no soporta la reproducción de video.
   </video>
+  <button id="playBtn" aria-label="Reproducir">▶</button>
 </div>
 
-<article>
-<p>El <strong>capítulo 65 de Dinastía Casillas</strong> continúa ofreciendo a los seguidores de la telenovela una experiencia intensa y envolvente, donde los acontecimientos se suceden con ritmo constante, manteniendo el interés por la historia y sus personajes. Cada episodio combina el desarrollo de las tramas principales con los conflictos internos de los protagonistas, presentando momentos clave que refuerzan la dinámica familiar y las tensiones acumuladas en entregas anteriores.</p>
+<script>
+const video = document.getElementById('videoPlayer');
+const playBtn = document.getElementById('playBtn');
+const playerContainer = document.querySelector('.main-player');
 
-<p>A lo largo del episodio, los personajes enfrentan situaciones que ponen a prueba sus decisiones y revelan facetas inesperadas de su personalidad, mostrando un equilibrio entre emoción y narrativa sólida. La historia avanza de manera natural, integrando los conflictos de manera coherente dentro del desarrollo general de la telenovela, sin recurrir a giros forzados, permitiendo que el espectador se mantenga conectado con los vínculos entre los distintos personajes y sus motivaciones.</p>
+playBtn.addEventListener('click', () => { video.play(); });
+video.addEventListener('play', () => { playerContainer.classList.add('video-playing'); });
+video.addEventListener('pause', () => { playerContainer.classList.remove('video-playing'); });
+</script>
+
+<article>
+<p>El <strong>capítulo 65 de Dinastía Casillas</strong> continúa ofreciendo a los seguidores de la telenovela una experiencia intensa y envolvente, donde los acontecimientos se suceden con ritmo constante, manteniendo el interés por la historia y sus personajes. Cada episodio ha sabido combinar el desarrollo de las tramas principales con los conflictos internos de los protagonistas, y este capítulo no es la excepción, presentando momentos clave que refuerzan la dinámica familiar y las tensiones acumuladas en entregas anteriores.</p>
+
+<p>A lo largo del episodio, los personajes se enfrentan a situaciones que ponen a prueba sus decisiones y revelan facetas inesperadas de su personalidad, mostrando un equilibrio entre emoción y narrativa sólida. La historia avanza de manera natural, integrando los conflictos de manera coherente dentro del desarrollo general de la telenovela, sin recurrir a giros forzados, lo que permite que el espectador se mantenga conectado con los vínculos entre los distintos personajes y sus motivaciones.</p>
 
 <p>El capítulo 65 destaca por profundizar en las relaciones y los desafíos que atraviesa la familia Casillas, explorando cómo los acontecimientos recientes influyen en cada miembro y afectan la dirección de la historia. Cada escena está cuidadosamente construida para que los espectadores comprendan la evolución de los personajes y los retos a los que se enfrentan, generando un equilibrio entre drama, tensión y momentos de reflexión.</p>
 
@@ -83,8 +114,8 @@ a:hover { text-decoration: underline; }
 
 <div class="nav-links">
   <a href="../64/index.html">Anterior</a> | 
-  <a href="../index.html">Capítulos</a> | 
-  <a href="../66/index.html">Siguiente</a>
+  <a href="https://telenovelamex.github.io/">Capítulos</a> | 
+  <a href="https://telenovelamex.github.io/66/dinastia-casillas-capitulo-66-completo-telenovela-mexicana/">Siguiente</a>
 </div>
 
 </div>
