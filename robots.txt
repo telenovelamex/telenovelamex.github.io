@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://telenovelamex.vercel.app/sitemap-index.xml
+Sitemap: https://telenovelamex.vercel.app/sitemap.xml
+
