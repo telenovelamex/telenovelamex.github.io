@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- الصفحة الرئيسية -->
   <url>
     <loc>https://telenovelamex.vercel.app/</loc>
     <lastmod>2026-01-13T20:00:00+00:00</lastmod>
@@ -8,6 +9,7 @@
     <priority>1.0</priority>
   </url>
 
+  <!-- Dinastía Casillas -->
   <url>
     <loc>https://telenovelamex.vercel.app/64/dinastia-casillas-capitulo-64-completo-telenovela-mexicana/</loc>
     <lastmod>2026-01-13T20:00:00+00:00</lastmod>
@@ -34,6 +36,21 @@
     <lastmod>2026-01-13T20:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Doménica Montero -->
+  <url>
+    <loc>https://telenovelamex.github.io/29/doménica-montero-29-completo-telenovela-mexicana/</loc>
+    <lastmod>2026-01-13T20:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://telenovelamex.github.io/30/doménica-montero-30-completo-telenovela-mexicana/</loc>
+    <lastmod>2026-01-13T20:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
 
 </urlset>
